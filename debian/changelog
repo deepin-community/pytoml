@@ -1,0 +1,29 @@
+pytoml (0.1.21-1) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * Bump Standards-Version to 4.4.1.
+
+  [ Scott Kitterman ]
+  * Update d/watch to point at pypi for the newest release
+  * New upstream release
+
+ -- Scott Kitterman <scott@kitterman.com>  Sat, 14 Mar 2020 01:16:55 -0400
+
+pytoml (0.1.2-2) unstable; urgency=medium
+
+  * Team upload.
+  * Fixed VCS URL (https)
+  * d/control: Set Vcs-* to salsa.debian.org
+  * Use pybuild to build package.
+  * Enable autopkgtest-pkg-python testsuite.
+  * Bump debhelper compat level to 12.
+  * Bump standards version to 4.4.0.
+  * Drop Python 2 support (Closes: #938288).
+
+ -- Ondřej Nový <onovy@debian.org>  Fri, 13 Sep 2019 10:17:21 +0200
+
+pytoml (0.1.2-1) unstable; urgency=medium
+
+  * Initial upload to Debian (Closes: #793759)
+
+ -- Luca Bruno <lucab@debian.org>  Sun, 26 Jul 2015 12:44:12 +0200

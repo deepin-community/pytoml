@@ -1,0 +1,25 @@
+Source: pytoml
+Section: python
+Priority: optional
+Maintainer: Luca Bruno <lucab@debian.org>
+Uploaders: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Build-Depends: debhelper-compat (= 12), python3-all, dh-python, python3-setuptools
+Standards-Version: 4.4.1
+Vcs-Git: https://salsa.debian.org/python-team/modules/pytoml.git
+Vcs-Browser: https://salsa.debian.org/python-team/modules/pytoml
+Homepage: https://github.com/avakar/pytoml
+Testsuite: autopkgtest-pkg-python
+
+Package: python3-pytoml
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends}
+Description: TOML parser and emitter for Python3
+ This project aims at being a specs-conforming and strict parser and writer
+ for TOML files. The library currently supports version 0.4.0 of the specs.
+ .
+ TOML aims to be a minimal configuration file format that is easy to read
+ due to obvious semantics. It is designed to map unambiguously to a hash
+ table and it is easy to parse into data structures in a wide variety of
+ languages.
+ .
+ This package contains the module for Python3 and runs with >= 3.4.
